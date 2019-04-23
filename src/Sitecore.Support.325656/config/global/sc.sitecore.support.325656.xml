@@ -1,0 +1,12 @@
+<Settings> 
+  <Sitecore>
+    <Publishing>
+      <Services>
+        <ItemManifestPromoter>
+          <Type>Sitecore.Support.Framework.Publishing.DataPromotion.DefaultItemManifestPromoter, Sitecore.Support.325656</Type>
+          <As>Sitecore.Framework.Publishing.DataPromotion.IItemManifestPromoter, Sitecore.Framework.Publishing.Service.Abstractions</As>
+        </ItemManifestPromoter>        
+      </Services>
+      </Publishing>
+  </Sitecore>
+</Settings>
