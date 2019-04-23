@@ -45,30 +45,37 @@
     <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Reference\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Reference\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Framework.Conditions, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Reference\Sitecore.Framework.Conditions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Framework.Configuration.Extensions, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Reference\Sitecore.Framework.Configuration.Extensions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Framework.Publishing, Version=3.1.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Reference\Sitecore.Framework.Publishing.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Framework.Publishing.Abstractions, Version=3.1.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Reference\Sitecore.Framework.Publishing.Abstractions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Framework.Publishing.Service.Abstractions, Version=3.1.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Reference\Sitecore.Framework.Publishing.Service.Abstractions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\packages\SC.Sitecore.Kernel.9.0.2\lib\Sitecore.Kernel.dll</HintPath>
@@ -91,13 +98,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="config\global\sc.sitecore.support.325656.xml" />
-    <Content Include="Reference\Microsoft.Extensions.Configuration.Abstractions.dll" />
-    <Content Include="Reference\Microsoft.Extensions.Logging.Abstractions.dll" />
-    <Content Include="Reference\Sitecore.Framework.Conditions.dll" />
-    <Content Include="Reference\Sitecore.Framework.Configuration.Extensions.dll" />
-    <Content Include="Reference\Sitecore.Framework.Publishing.Abstractions.dll" />
-    <Content Include="Reference\Sitecore.Framework.Publishing.dll" />
-    <Content Include="Reference\Sitecore.Framework.Publishing.Service.Abstractions.dll" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
